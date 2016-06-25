@@ -54,12 +54,6 @@
 						<?php $logo = (get_option('trim_logo') <> '') ? esc_attr(get_option('trim_logo')) : get_template_directory_uri() . '/images/logo.png'; ?>
 						<img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" id="logo"/>
 					</a>
-					<div id="search-form">
-						<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>/">
-							<input type="text" value="<?php esc_attr_e('Search...', 'Trim'); ?>" name="s" id="searchinput" />
-							<input type="image" alt="<?php echo esc_attr( 'Submit', 'Trim' ); ?>" src="<?php echo esc_url( get_template_directory_uri() . '/images/search_btn.png' ); ?>" id="searchsubmit" />
-						</form>
-					</div> <!-- end #search-form -->
 				</div> <!-- end #top-area -->
 
 				<div id="menu" class="clearfix">
