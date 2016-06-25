@@ -17,7 +17,7 @@
 			</div> <!-- end #content -->
 		</div> <!-- end #wrapper -->
 
-		<p id="copyright"><?php printf( __('Designed by %s | Powered by %s', 'Trim'), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' ); ?></p>
+		<p id="copyright">Copyright © 2016 Cennerv Pharma. All Rights Reserved.</p>
 	</div> <!-- end #container -->
 
 	<?php wp_footer(); ?>

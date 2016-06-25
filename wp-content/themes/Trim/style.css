@@ -102,9 +102,9 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 
 h1, h2, h3, h4, h5, h6, #quote, span.post-meta span, span.fn { font-family: 'ColaborateThinRegular', Arial, sans-serif; }
 
-#container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
+#container { text-align: left; margin: 0 auto; width: 1000px; position: relative; }
 	#main-header { background-color: #fff;  }
-		#top-area { border-bottom: 1px solid #efefef; padding: 52px 49px 89px 58px; }
+		#top-area { border-bottom: 1px solid #efefef; padding: 25px 49px 89px 58px; }
 			#logo { float: left; margin-top: 2px; }
 			#search-form { float: right; height: 32px; border:1px solid #efefef; }
 				#search-form #searchinput { background: none; border: none; float: left; margin: 7px 14px 0 7px; width: 110px; padding-left: 6px; font-size: 11px; color: #e2e2e2; font-family: Georgia, serif; font-style: italic; }
@@ -208,7 +208,7 @@ a.readmore:hover, .reply-container a:hover { color: #111; text-decoration: none;
 .post_meta { float: left; color: #fff; font-size: 11px; font-weight: bold; text-transform: uppercase; background: none; border-top: 0px solid #3c819a; padding: 0 7px; position: relative; line-height: 18px; margin-right: 5px; top: 2px; }
 .post_excerpt { clear: both; }
 
-#main_content { padding: 35px 39px; position: relative; }
+#main_content { padding: 0px 25px; position: relative; }
 	#left_area { width: 553px; float: left; margin-right: 80px; }
 		h1.main_title, h1#comments, h3#reply-title { font-size: 35px; }
 			h1.main_title a { color: #656464; }
@@ -345,7 +345,7 @@ h3#reply-title { position: relative; }
 	.footer-widget.last { margin-right: 0; padding-right: 0; border-right: none; }
 		h4.widgettitle { color: #1f262d; font-size: 24px; font-family: 'ColaborateThinRegular', Arial, sans-serif; margin-bottom: 9px; }
 		.footer-widget p { line-height: 21px; }
-p#copyright { text-align: right; font-size:12px; color:#b4b4b4; text-shadow: 1px 1px 1px #fff; margin: 37px 0 20px; }
+p#copyright { text-align: left; font-size:12px; color:#fff; text-shadow: 1px 1px 1px #fff; margin: 0 0 20px;padding:15px;background:#000; }
 	p#copyright a { color:#b4b4b4; }
 
 /*------------------------------------------------*/
@@ -548,7 +548,7 @@ embed, iframe, object, video { max-width: 100%; }
 }
 
 @media only screen and ( min-width: 768px ) and ( max-width: 960px ) {
-	#container { width: 748px; }
+	#container { width: 1000px; }
 	#menu #main-menu { width: 646px; }
 	.et_slide_video h2.title, .et_text_slide h2.title { font-size: 42px; }
 	#featured-controllers li { width: 186px; }
