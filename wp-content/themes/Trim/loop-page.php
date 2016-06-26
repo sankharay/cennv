@@ -1,7 +1,8 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	<article class="entry post clearfix">
-		<h1 class="main_title"><?php // the_title(); ?></h1>
-
+	<?php  if ( !is_front_page() ) { ?>
+		<h1 class="main_title"><?php the_title(); ?></h1>
+		<?php } ?>
 		<div class="post-content clearfix">
 			<?php
 				$thumb = '';

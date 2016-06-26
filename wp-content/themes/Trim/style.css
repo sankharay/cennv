@@ -55,7 +55,7 @@ article, aside, footer, header, hgroup, nav, section { display: block; }
     font-style: normal;
 }
 
-body { line-height: 21px; font-family: 'Droid Sans', Arial, sans-serif; font-size: 13px; color: #656464; background: #f8f8f8 url(images/body-bg.png); }
+body { line-height: 21px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #656464; background: #f8f8f8 url(images/body-bg.png); }
 
 a, #reply-title a { text-decoration: none; color: #549eb9; }
 a:hover { text-decoration: underline; }
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, #quote, span.post-meta span, span.fn { font-family: 'Col
 
 #container { text-align: left; margin: 0 auto; width: 1000px; position: relative; }
 	#main-header { background-color: #fff;  }
-		#top-area { border-bottom: 1px solid #efefef; padding: 25px 49px 89px 58px; }
+		#top-area { border-bottom: 0px solid #efefef; padding: 25px 49px 89px 58px; }
 			#logo { float: left; margin-top: 2px; }
 			#search-form { float: right; height: 32px; border:1px solid #efefef; }
 				#search-form #searchinput { background: none; border: none; float: left; margin: 7px 14px 0 7px; width: 110px; padding-left: 6px; font-size: 11px; color: #e2e2e2; font-family: Georgia, serif; font-style: italic; }
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6, #quote, span.post-meta span, span.fn { font-family: 'Col
 		#quote { border-bottom:1px solid #efefef; text-align:center; font-size:35px; color:#656464; padding:33px 40px; background:url(images/left-quote.png) no-repeat 40px 33px; }
 			#quote p { line-height:40px; padding:0 40px; background:url(images/right-quote.png) no-repeat top right; }
 		#home-sections { border-bottom:1px solid #efefef; padding:37px 40px; position: relative; }
-			#home-sections:before, #main_content:before { position: absolute; content: ''; top: 0; left: 480px; width: 1px; height: 100%; border-left: 1px solid #efefef; }
+			#home-sections:before, #main_content:before { position: absolute; content: ''; top: 0; left: 480px; width: 1px; height: 100%; border-left: 0px solid #efefef; }
 			#main_content:before { left: 633px; }
 			#recent-work { float:left; width:404px; padding-right:39px; }
 				#recent_work_thumbs { margin-left: -27px; margin-bottom: -4px; }
@@ -190,8 +190,11 @@ body.home #main-header, body.home #content, .featured_box, .avatar-box, #wrapper
 
 body.home #wrapper { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 
-#menu { border-bottom: 1px solid #efefef; }
-body.home #menu { border-bottom: none;background:#00579c; }
+#menu { border-bottom: 0px solid #efefef;background: #00579c none repeat scroll 0 0;
+    border-bottom: medium none;
+    margin: auto;
+    width: 95%; }
+body.home #menu { border-bottom: none;background:#00579c;width: 95%;margin:auto; }
 
 a.readmore, .reply-container a, #commentform input#submit { display: inline-block; background: #E2E2E2; color: #656464; text-shadow: 1px 1px 0 white; border: 1px solid #9D9D9D; padding: 3px 12px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; -webkit-box-shadow: inset 0px 1px 0px #f5f5f5; -moz-box-shadow: inset 0px 1px 0px #f5f5f5; box-shadow: inset 0px 1px 0px #f5f5f5;
 background: -moz-linear-gradient(top,  #e8e8e8 0%, #d1d1d1 100%); /* FF3.6+ */
@@ -209,7 +212,7 @@ a.readmore:hover, .reply-container a:hover { color: #111; text-decoration: none;
 .post_excerpt { clear: both; }
 
 #main_content { padding: 0px 25px; position: relative; }
-	#left_area { width: 553px; float: left; margin-right: 80px; }
+	#left_area { width: 653px; float: left; margin-right: 40px; }
 		h1.main_title, h1#comments, h3#reply-title { font-size: 35px; }
 			h1.main_title a { color: #656464; }
 			h1.main_title a:hover { color: #111; text-decoration: none; }
@@ -352,7 +355,7 @@ p#copyright { text-align: left; font-size:12px; color:#fff; text-shadow: 1px 1px
 /*--------------------[SIDEBAR]-------------------*/
 /*------------------------------------------------*/
 
-#sidebar { float: left; width: 246px; }
+#sidebar { float: left; width: 206px; }
 	h4.widget_title { font-size: 24px; color: #1f262d; margin-bottom: 6px; }
 	#sidebar .widget { margin-bottom: 30px; }
 
@@ -428,7 +431,7 @@ a.readmore:hover, #sidebar div.custom-sidebar-block ul.control li a:hover, ul#ca
 .fullwidth #left_area { width: auto; float: none; margin-right: 0; }
 .fullwidth .post-content .featured_box { float: left; margin: 0 15px 10px 0; }
 
-body.page h1.main_title { padding-bottom: 17px; }
+body.page h1.main_title { padding-bottom: 17px;margin-top:20px; }
 
 .et_pt_blogentry a.readmore { border: none !important; padding: 0 13px 0 0 !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; }
 
