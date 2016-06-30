@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6, #quote, span.post-meta span, span.fn { font-family: 'Col
 				#search-form #searchinput { background: none; border: none; float: left; margin: 7px 14px 0 7px; width: 110px; padding-left: 6px; font-size: 11px; color: #e2e2e2; font-family: Georgia, serif; font-style: italic; }
 				#search-form #searchsubmit { margin-top: 10px; margin-right: 11px; }
 		#menu { border-top: 3px solid #f7f7f7; padding: 0 14px 0 0; }
-			#menu #main-menu { float:left; width: 860px; }
+			#menu #main-menu { float:left; width: 860px;background:#00579c none repeat scroll 0 0; }
 				#menu .nav li { float:left; border-right: 1px solid #000000; }
 					#menu .nav a, ul#mobile_menu a { font-size: 12px; color: #fff; text-decoration: none; text-transform:uppercase; display: block; height: 44px; overflow: hidden; -webkit-transition: background-color 0.2s ease-in; -moz-transition:background-color 0.2s ease-in; -o-transition: background-color 0.2s ease-in; transition: background-color 0.2s ease-in; }
 						#menu .nav a > span { padding: 12px 25px 11px; }
