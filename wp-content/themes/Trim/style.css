@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, #quote, span.post-meta span, span.fn { font-family: 'Col
 
 #container { text-align: left; margin: 0 auto; width: 1000px; position: relative; }
 	#main-header { background-color: #fff;  }
-		#top-area { border-bottom: 0px solid #efefef; padding: 25px 49px 89px 58px; }
+		#top-area { border-bottom: 0px solid #efefef; padding: 25px 49px 83px 28px; }
 			#logo { float: left; margin-top: 2px; }
 			#search-form { float: right; height: 32px; border:1px solid #efefef; }
 				#search-form #searchinput { background: none; border: none; float: left; margin: 7px 14px 0 7px; width: 110px; padding-left: 6px; font-size: 11px; color: #e2e2e2; font-family: Georgia, serif; font-style: italic; }
