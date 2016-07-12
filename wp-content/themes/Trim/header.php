@@ -61,7 +61,7 @@
   <param value="http://cennervpharma.com.74-208-102-108.1hubhost.com/images/Scripts/expressInstall.swf" name="expressinstall">
   <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
   <!--[if !IE]>-->
-  <object width="64" height="64" data="flash/logo3.swf" type="application/x-shockwave-flash">
+  <object width="64" height="64" data="http://cennervpharma.com.74-208-102-108.1hubhost.com/flash/logo3.swf" type="application/x-shockwave-flash">
     <!--<![endif]-->
     <param value="high" name="quality">
     <param value="opaque" name="wmode">
