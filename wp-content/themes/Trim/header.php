@@ -53,12 +53,12 @@
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 						<div height="64" width="64" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" flashid"="" style="width:8%;float:left;&gt;
 &lt;object id=">
-  <param value="flash/logo3.swf" name="movie">
+  <param value="http://cennervpharma.com.74-208-102-108.1hubhost.com/flash/logo3.swf" name="movie">
   <param value="high" name="quality">
   <param value="opaque" name="wmode">
   <param value="6.0.65.0" name="swfversion">
   <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you donâ€™t want users to see the prompt. -->
-  <param value="images/Scripts/expressInstall.swf" name="expressinstall">
+  <param value="http://cennervpharma.com.74-208-102-108.1hubhost.com/images/Scripts/expressInstall.swf" name="expressinstall">
   <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
   <!--[if !IE]>-->
   <object width="64" height="64" data="flash/logo3.swf" type="application/x-shockwave-flash">
@@ -66,7 +66,7 @@
     <param value="high" name="quality">
     <param value="opaque" name="wmode">
     <param value="6.0.65.0" name="swfversion">
-    <param value="images/Scripts/expressInstall.swf" name="expressinstall">
+    <param value="http://cennervpharma.com.74-208-102-108.1hubhost.com/images/Scripts/expressInstall.swf" name="expressinstall">
     <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
     <div>
       <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
