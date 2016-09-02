@@ -459,3 +459,4 @@ function et_core_portability_link() {
 	return '';
 }
 endif;
+remove_action('wp_head', 'wp_generator');
